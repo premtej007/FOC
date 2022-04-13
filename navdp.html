@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li{
+            float: left ;
+            padding: 4px;
+            color: rgb(224, 153, 165);
+            list-style: none;
+        }
+        ul li{
+            text-align: center;
+        }
+        ul li ul li{
+            display: none;
+        }
+        li:hover {
+            text-decoration: underline;
+            color: rgb(206, 19, 19);
+            font-size: larger;
+        }
+        ul li:hover ul li{
+            display: list-item;
+            display: block;
+            clear: both;
+        }
+        nav{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Gateway
+               <div> <ul>
+                <li>delhi</li>
+                <li>mumbai</li>
+            </ul></div>
+            </li>
+            <li>Gangtok</li>
+        </ul>
+    </nav>
+</body>
+</html>

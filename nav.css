@@ -1,0 +1,95 @@
+.nav{
+    list-style-type: none;
+    background-color: lightblue;
+    transform: translate(10px, 10px);
+}
+ul{
+    overflow: hidden;
+}
+img{
+    width:7%;
+    float: left;
+    
+}
+body{
+    background-image: url('lib2.jpg');
+}
+
+.list{
+    float: left;
+    
+    transform: translate(633px,50%);
+    border: 3px solid lightblue;
+    margin: 20px
+    
+
+}
+.list:hover{
+    
+    text-decoration: underline;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.dialyTT img {
+    float: left;
+    width: 42%;
+    padding: 50px;
+    
+}
+.fun{
+    background-color: aqua;
+    overflow: none;
+}
+h1{
+    
+    float:left;
+    padding-left: 193px;
+    padding-right:  311px;
+    
+    
+}
+
+
+.navbox{
+    background-color: yellow;
+    margin: auto;
+
+}
+.coursewebsites{
+    clear: both;
+    background-image: url('lib.jpg');
+}
+.course{
+    color: rgba(204, 218, 19, 0.63)
+    ;
+    border: 3px solid black;
+    text-align: left;
+    width: 5%;
+    display: inline;
+    margin: 73px;
+    background-color:transparent;
+    transition: 1s;
+}
+.course:hover{
+    margin: 12px;
+    background-color: skyblue;
+    border: none;
+    border-bottom: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+div{
+    clear: both;
+    text-align: left;
+    margin: 4px;
+    
+}
+.h2-{
+    text-align: center;
+    width: 800px;
+}
